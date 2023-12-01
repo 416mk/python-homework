@@ -19,22 +19,30 @@ step:1 im going to be asjusting the training dataset to use data from different 
 try #1 - training the dataset double the 3 month data (6 month)
 try #2 - training the dataset with half the period (1.5 month)
 
-try 1 results =
-try 2 results =
+try 1 results = https://github.com/416mk/python-homework/blob/main/MODULE%2014/Unit%2014%20Homework/Instructions/6month.PNG
+try 2 results = https://github.com/416mk/python-homework/blob/main/MODULE%2014/Unit%2014%20Homework/Instructions/1month.PNG
 
+findings: The strategy returns were closer to the actual results when the training dataset was reduced to one month and a half of data. When the training dataset was increased to six months of data, the strategy returns were significantly higher than the actual results. To summarize, the larger the sample training dataset, the better the algo machine performs in providing higher than actual returns.
 
 #step 2 we wwill adjust the SMA values
 original values for sma (4,100)
 try #1 - half the sma values (2,50)
 try #2 double the sma values (8,200)
 
-try 1 results =
-try 2 results =
+try 1 results =https://github.com/416mk/python-homework/blob/main/MODULE%2014/Unit%2014%20Homework/Instructions/half%20sma%20value.PNG
+try 2 results =https://github.com/416mk/python-homework/blob/main/MODULE%2014/Unit%2014%20Homework/Instructions/double%20sma%20value.PNG
+
+findings: There was no significant influence on the algo strategy returns by lowering the SMA levels to 2 and 50. Increasing the SMA settings to 8 and 200 had a big impact because the strategy returns were lower than the actual returns. As a result, the algo performs better on shorter time frames, such as 2/50 or 4/100.
+
 
 conclusion - evaluation report
 
 
+in conclusion after running extensive research on this algorythm, i have deducted that for the best results we need to feed it more data in the sense the more we increase timeframe the better the results which can be observed when i did step 1 and compared half the time frame and double the time frame.
 
+in terms of sma variables i found there to be a better result with lower sma value which can also be seen in try #2 where i played with half and double.
+
+so in conslusion the best model is double the timeframe and original or lower sma values to get the best results.
 
 
 
